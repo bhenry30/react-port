@@ -27,7 +27,6 @@ function Container() {
     return (
     <div className="hero">
         <div className="nav"><NavButtons currentPage={currentPage} handlePageChange={handlePageChange} />
-            
         </div>
                     {renderPage()}
         <div className='card-container'>
