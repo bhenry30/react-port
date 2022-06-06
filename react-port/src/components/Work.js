@@ -33,4 +33,4 @@ function Work() {
     )
 }
 
-module.exports = Work
+export default Work

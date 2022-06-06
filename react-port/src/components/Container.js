@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import NavButtons from './NavButtons';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Work from './pages/Work';
-import Welcome from './pages/Welcome';
+import About from './About';
+import Contact from './Contact';
+import Work from './Work';
+import Welcome from './Welcome';
 
 function Container() {
     const [currentPage, setCurrentPage] = useState('Welcome')
@@ -26,9 +26,11 @@ function Container() {
     
     return (
     <div className="hero">
-        <div className="nav"><NavButtons currentPage={currentPage} handlePageChange={handlePageChange} /></div>
-        <div className='card-container'>
+        <div className="nav"><NavButtons currentPage={currentPage} handlePageChange={handlePageChange} />
+            
+        </div>
                     {renderPage()}
+        <div className='card-container'>
         </div>
     </div>
     )

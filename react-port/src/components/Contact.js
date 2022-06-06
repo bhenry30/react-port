@@ -10,10 +10,10 @@ function Contact() {
                 <a href="https://www.linkedin.com/in/bhenry40/">LinkedIn</a>
                 <a href="https://github.com/bhenry30">GitHub</a>
                 <a href="https://www.instagram.com/mrbrandonhenry/">Instagram</a>
-        </div>
+            </div>
         </div>
 
     )
 }
 
-module.exports = Contact
+export default Contact
